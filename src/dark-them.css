@@ -1,0 +1,40 @@
+/* PRIMARY (cool slate / blue-gray shift) */
+[data-theme="dark"] {
+  /* PRIMARY (cool slate / blue-gray shift) */
+  --color-primary-50: #1a1c24;
+  --color-primary-100: #222533;
+  --color-primary-200: #2c3142;
+  --color-primary-300: #3a4054;
+  --color-primary-400: #4b5270;
+  --color-primary-500: #646c8f;
+  --color-primary-600: #8088a8;
+  --color-primary-700: #a0a7c0;
+  --color-primary-800: #c1c6d8;
+  --color-primary-900: #e2e4ee;
+
+  /* SECONDARY (muted red/rose for dark UI safety) */
+  --color-secondary-50: #2a1616;
+  --color-secondary-100: #3a1d1d;
+  --color-secondary-200: #522626;
+  --color-secondary-300: #6e3031;
+  --color-secondary-400: #8b3d3e;
+  --color-secondary-500: #a94c4d;
+  --color-secondary-600: #c15c5d;
+  --color-secondary-700: #d67a7b;
+  --color-secondary-800: #e6a3a4;
+  --color-secondary-900: #f3cfcf;
+
+  /* BACKGROUNDS */
+  --bg-main: #0f1115;
+  --bg-card: #171a21;
+
+  /* TEXT */
+  --text-main: #f5f5f5;
+  --text-light: #c7c7c7;
+
+  /* BADGES (adjusted for dark contrast) */
+  --badge-green: #2ecc71;
+  --badge-gray: #3a3f4a;
+  --badge-secondary: #ff6b6b;
+  --badge-warn: #f4b400;
+}
