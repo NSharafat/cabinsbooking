@@ -10,7 +10,6 @@ import {
 import styled from "styled-components";
 import { calculateAreaChartData } from "../Utilities/StatesFunctions";
 import { useSearchParams } from "react-router-dom";
-import { date } from "zod";
 import Empty from "./Empty";
 
 const ChartWrapper = styled.div`

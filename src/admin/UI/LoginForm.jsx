@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import FormRow from "./FormRow";
 import { Error, Input } from "./FormElements";
@@ -6,11 +6,9 @@ import logo from "../../assets/logoc.png";
 import Button from "./Button";
 import styled from "styled-components";
 import Logo from "./Logo";
-import { login } from "../Auth/Auth";
-import { da } from "zod/v4/locales";
-import { useAuth } from "../Auth/useAuth";
-import { replace, useLocation, useNavigate } from "react-router-dom";
-import { set } from "zod";
+import { useLocation } from "react-router-dom";
+import { useAuth } from "../Context/AuthContext";
+import { useNavigate } from "react-router-dom";
 
 const FormWrapper = styled.div`
   background-color: var(--color-primary-50);

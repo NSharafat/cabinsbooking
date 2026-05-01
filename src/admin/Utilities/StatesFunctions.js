@@ -1,5 +1,3 @@
-import { useSearchParams } from "react-router-dom";
-
 const TOTAL_CABINS = 12;
 
 export function CalculateEarnings(bookings) {
@@ -54,11 +52,6 @@ export function pieChartData(bookings) {
 }
 
 export function calculateAreaChartData(bookings, period) {
-  const date = new Date().toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-  });
-
   let DateRange = [];
   const periodDate = new Date();
   if (period === "7-days") {
