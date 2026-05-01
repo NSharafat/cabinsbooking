@@ -7,7 +7,7 @@ import Button from "./Button";
 import styled from "styled-components";
 import Logo from "./Logo";
 import { useLocation } from "react-router-dom";
-import { useAuth } from "../Context/AuthContext";
+import { useAuth } from "../Auth/useAuth";
 import { useNavigate } from "react-router-dom";
 
 const FormWrapper = styled.div`
